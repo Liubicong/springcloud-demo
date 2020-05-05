@@ -21,7 +21,7 @@ public class EurekaClient1Application {
 
     @RequestMapping("/hi")
     public String hi(){
-        return "IP:" + port;
+        return "IP地址:" + port;
     }
 
 
